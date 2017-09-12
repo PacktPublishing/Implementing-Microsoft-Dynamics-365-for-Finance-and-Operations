@@ -1,0 +1,10 @@
+{
+"CustomerGroupId":"10",
+"Description":"Wholesales customers",
+"PaymentTermId":"Net30"
+},
+{
+"CustomerGroupId":"20",
+"Description":"Retail customers",
+"PaymentTermId":"Receipt"
+}

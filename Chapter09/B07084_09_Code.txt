@@ -1,0 +1,59 @@
+//using keyword for referencing - just like C# 
+using coll = System.Collections;
+using System.CodeDom;
+class MyMainClass
+{
+    // Declare variables and instantiate them in the class declaration 
+    // granular field access mark them public, private or protected. 
+    //static, constant and read only member variables 
+    static int loop;
+    private const int constValue = 4;
+    public readonly str readOnlyValue = "ReadOnly";
+    CodeComment comment = new CodeComment("Print something");
+    
+    // static constructor using TypeNew keyword
+    static void TypeNew()
+    {
+        loop = 4;
+    }
+    public static void main(Args _args)
+    {
+        MyMainClass mainClass = new MyMainClass();
+        mainClass.myMethod();
+    }
+    public void myMethod()
+    {
+        coll.ArrayList arrayList = new coll.ArrayList();
+        // Const or readonly variables change- generate compile error
+        // constValue = 5;
+        //readOnlyValue = "I want to change this but i cant";
+        try
+        {
+            info(comment.Text);
+            //use var keyword
+            for (var i = 1; i <= loop; i++) 
+            {
+                arrayList.Add(i);
+                if (i == 3)
+                {
+                    throw error("Catch me.");
+                }
+            }
+        }
+        catch
+        {
+            error("something happened in try.");
+        }
+        // Finaly keyword
+        finally
+        {
+            info(strFmt("Error happened at %1", arrayList.Count));
+        }
+    }
+    /*Output 
+    Print something
+    Catch me.
+    something happen in try.
+    Error happened at 3
+    */
+}
