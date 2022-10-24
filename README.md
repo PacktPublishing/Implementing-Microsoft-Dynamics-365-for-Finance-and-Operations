@@ -26,3 +26,7 @@ To get the most out of this book, you need to have a basic understanding of the 
 
 * [Microsoft Office 365: Exchange Online Implementation and Migration](https://www.packtpub.com/hardware-and-creative/microsoft-office-365-exchange-online-implementation-and-migration?utm_source=github&utm_medium=repository&utm_campaign=9781849685863)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781787283336">https://packt.link/free-ebook/9781787283336 </a> </p>
